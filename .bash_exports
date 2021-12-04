@@ -1,0 +1,9 @@
+# exports
+export DISPLAY=':1'
+export EDITOR=micro
+export HISTCONTROL=ignoreboth
+export HISTFILESIZE=2000
+export HISTSIZE=$HISTFILESIZE
+export PATH=$HOME/bin:$PATH
+export PROMPT_COMMAND=bashpc
+export TZ='Etc/GMT+5'

@@ -1,0 +1,13 @@
+# alias
+alias ..='cd ../'
+alias ...='cd ../../'
+alias cal='cal -m'
+alias clang-format='clang-format -i -style=file'
+alias dotf='git --git-dir=$HOME/.dotf --work-tree=$HOME'
+alias la='ls --all --color'
+alias ls='ls --color'
+alias main='abduco -A main'
+alias mkdir='mkdir -p'
+alias reload='. $HOME/.bashrc'
+alias rm='rm -riv'
+alias sgit='ssh -T git@github.com'

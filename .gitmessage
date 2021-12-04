@@ -1,0 +1,11 @@
+<type>(<scope>): <subject>
+# <type>
+#	build / chore / docs / feat / fix / perf / refactor / revert / style / test
+# <subject>
+# add / change / document / fix / refactor / remove / update
+
+# body
+
+# Closes #123, #456
+
+# BREAKING CHANGE: change

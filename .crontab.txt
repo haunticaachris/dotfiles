@@ -1,0 +1,5 @@
+# no mail output
+MAILTO=""
+
+# clear ~/.tmp directory every hour
+0 * * * * cd "${HOME}/.tmp" && rm -rf ./* ./.*

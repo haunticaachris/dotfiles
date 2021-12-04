@@ -1,0 +1,26 @@
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "diff"]
+    meta = yellow
+    old = red
+    new = green
+[color "status"]
+    added = green
+    changed = blue
+    untracked = red
+[commit]
+    template = ~/.gitmessage
+[core]
+    editor = micro
+[init]
+	defaultBranch = main
+[pull]
+    rebase = true
+[push]
+    default = current
+    followTags = true
+[user]
+    email = 80642560+haunticaachris@users.noreply.github.com
+    name = Chris
