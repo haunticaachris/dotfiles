@@ -1,4 +1,4 @@
-FILE=private.tar.gz
+FILE=backup.tar.gz
 
 LOCATION=./storage/downloads
 
