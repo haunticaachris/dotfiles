@@ -34,6 +34,7 @@
 .ssh
 id_rsa*
 npm-debug.log*
+package-lock.json
 secring.*
 yarn-debug.log*
 yarn-error.log*
