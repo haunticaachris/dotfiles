@@ -65,6 +65,7 @@ downloads/
 id_rsa*
 lerna-debug.log*
 npm-debug.log*
+package-lock.json
 pids
 pip-log.txt
 secring.*
