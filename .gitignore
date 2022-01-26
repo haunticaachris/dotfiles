@@ -37,14 +37,12 @@
 .eslintcache
 .gnupg
 .npm
-.npm
 .pnp.*
 .pnp.js
 .pnpm-debug.log*
 .ssh
 .temp
 .vscode/
-.yarn-integrity
 .yarn-integrity
 .yarn/build-state.yml
 .yarn/cache
@@ -59,7 +57,6 @@
 /tests
 CMakeCache.txt
 CMakeLists.txt.user
-dist/
 dist/
 downloads/
 id_rsa*
