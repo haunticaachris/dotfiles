@@ -15,13 +15,18 @@ endif
 let g:colors_name="cs"
 
 " color names
-let s:mainbg = ['black', '#333333']
-let s:mainfg = ['white', '#dddddd']
-let s:color1 = ['gray', '#667788']
-let s:color2 = ['red', '#dd6677']
-let s:color3 = ['green', '#99cc88']
-let s:color4 = ['blue', '#66aaee']
-let s:color5 = ['yellow', '#eecc77']
+let s:mainbg = ['black', '#222233']
+let s:mainfg = ['white', '#aabbbb']
+
+let s:black = ['black', '#334455']
+let s:red = ['red', '#dd4455']
+let s:green = ['green', '#77bb55']
+let s:yellow = ['yellow', '#cc7744']
+let s:blue = ['blue', '#3388ee']
+let s:magenta = ['magenta', '#aa55aa']
+let s:cyan = ['cyan', '#339999']
+let s:white = ['white', '#eeeeee']
+let s:gray = ['gray', '#667788']
 
 " functions
 function!  s:Hi(group, fg, bg)
@@ -39,46 +44,49 @@ function!  s:Hi(group, fg, bg)
 endfunction
 
 " regular highlights
-call s:Hi('ColorColumn', s:color2, s:color2)
+call s:Hi('ColorColumn', s:red, s:red)
 call s:Hi('CursorLine', s:mainfg, s:mainbg)
-call s:Hi('CursorLineNr', s:color1, s:mainbg)
-call s:Hi("DiffAdd", s:mainbg, s:color3)
-call s:Hi("DiffChange", s:mainbg, s:color3)
-call s:Hi("DiffDelete", s:color2, s:mainbg)
+call s:Hi('CursorLineNr', s:gray, s:mainbg)
+call s:Hi("DiffAdd", s:mainbg, s:green)
+call s:Hi("DiffChange", s:mainbg, s:green)
+call s:Hi("DiffDelete", s:red, s:mainbg)
 call s:Hi("DiffText", s:mainfg, s:mainbg)
-call s:Hi('ErrorMsg', s:color2, s:mainbg)
-call s:Hi('FoldColumn', s:color1, s:mainbg)
-call s:Hi('Folded', s:color1, s:mainbg)
+call s:Hi('ErrorMsg', s:red, s:mainbg)
+call s:Hi('FoldColumn', s:gray, s:mainbg)
+call s:Hi('Folded', s:gray, s:mainbg)
 call s:Hi('ColorColumn', s:mainfg, s:mainfg)
 call s:Hi('IncSearch', s:mainfg, s:mainbg)
-call s:Hi('LineNr', s:color1, s:mainbg)
-call s:Hi('Question', s:color2, s:mainbg)
+call s:Hi('LineNr', s:gray, s:mainbg)
+call s:Hi('Question', s:red, s:mainbg)
 call s:Hi('Search', s:mainbg, s:mainfg)
 call s:Hi('SpecialKey', s:mainfg, s:mainbg)
-call s:Hi('Title', s:color1, s:mainbg)
-call s:Hi('Visual', s:color4, s:mainbg)
-call s:Hi('WarningMsg', s:color2, s:mainbg)
+call s:Hi('Title', s:gray, s:mainbg)
+call s:Hi('Visual', s:blue, s:mainbg)
+call s:Hi('WarningMsg', s:red, s:mainbg)
 call s:Hi('WildMenu', s:mainfg, s:mainbg)
 
 " syntax highlights
-call s:Hi('Comment', s:color1, s:mainbg)
-call s:Hi('Constant', s:color5, s:mainbg)
-call s:Hi('Error', s:color2, s:mainbg)
-call s:Hi('Function', s:color4, s:mainbg)
-call s:Hi('htmlTagName', s:color3, s:mainbg)
-call s:Hi('Identifier', s:color3, s:mainbg)
+call s:Hi('Boolean', s:yellow, s:mainbg)
+call s:Hi('Character', s:green, s:mainbg)
+call s:Hi('Comment', s:gray, s:mainbg)
+call s:Hi('Constant', s:cyan, s:mainbg)
+call s:Hi('Error', s:red, s:mainbg)
+call s:Hi('Float', s:yellow, s:mainbg)
+call s:Hi('Function', s:blue, s:mainbg)
+call s:Hi('htmlTagName', s:red, s:mainbg)
+call s:Hi('Identifier', s:red, s:mainbg)
 call s:Hi('lCursor', s:mainfg, s:mainbg)
-call s:Hi('MatchParen', s:color4, s:mainbg)
+call s:Hi('MatchParen', s:blue, s:mainbg)
 call s:Hi('NONE', s:mainfg, s:mainbg)
 call s:Hi('Normal', s:mainfg, s:mainbg)
-call s:Hi('Number', s:color5, s:mainbg)
-call s:Hi('Operator', s:color3, s:mainbg)
-call s:Hi('PreProc', s:color3, s:mainbg)
-call s:Hi('Repeat', s:color3, s:mainbg)
-call s:Hi('Special', s:color3, s:mainbg)
-call s:Hi('Statement', s:color3, s:mainbg)
-call s:Hi('String', s:color3, s:mainbg)
-call s:Hi('Todo', s:color3, s:mainbg)
-call s:Hi('Type', s:color3, s:mainbg)
-call s:Hi('Underlined', s:color1, s:mainbg)
+call s:Hi('Number', s:yellow, s:mainbg)
+call s:Hi('Operator', s:magenta, s:mainbg)
+call s:Hi('PreProc', s:yellow, s:mainbg)
+call s:Hi('Repeat', s:magenta, s:mainbg)
+call s:Hi('Special', s:blue, s:mainbg)
+call s:Hi('Statement', s:magenta, s:mainbg)
+call s:Hi('String', s:green, s:mainbg)
+call s:Hi('Todo', s:magenta, s:mainbg)
+call s:Hi('Type', s:yellow, s:mainbg)
+call s:Hi('Underlined', s:gray, s:mainbg)
 call s:Hi('User1', s:mainfg, s:mainbg)
