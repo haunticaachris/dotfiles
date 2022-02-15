@@ -50,12 +50,11 @@
 .yarn/install-state.gz
 .yarn/unplugged
 /.pnp
+/artifacts
 /bin
 /build
 /coverage
 /node_modules
-/test
-/tests
 CMakeCache.txt
 CMakeLists.txt.user
 dist/
